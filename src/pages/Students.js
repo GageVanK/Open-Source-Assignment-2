@@ -22,8 +22,10 @@ export default function Students(){
             <h1>Students</h1>
 
             <ul>
-                {students.map(student => 
-                <li>{student.fields.first}</li>)}
+                {students.map((first, index) => (
+                <li key={first.id}>
+                {first.fields.first}
+                </li>))}
             </ul>
         </div>
         
