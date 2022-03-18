@@ -24,7 +24,7 @@ export default function Students(){
             <ul>
                 {students.map((First) => (
                 <li>
-                {First.fields.First} {First.fields.Last} - {First.fields.Class_Standing} Admitted {First.fields.Admit_Term} Pursuing a {First.fields.Degree} in {First.fields.Major}. Contact: {First.fields.Cell_Number}
+                {First.fields.First} {First.fields.Last} - {First.fields.Class_Standing} admitted {First.fields.Admit_Term} pursuing a {First.fields.Degree} in {First.fields.Major}. Contact: {First.fields.Cell_Number}
                 </li>
                 ))}
             </ul>
