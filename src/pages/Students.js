@@ -24,7 +24,7 @@ export default function Students(){
             <ul>
                 {students.map((First) => (
                 <li>
-                {First.fields.First}
+                {First.fields.First} " " {First.fields.Last}
                 </li>
                 ))}
             </ul>
