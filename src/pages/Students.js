@@ -13,8 +13,9 @@ export default function Students(){
             } catch (err){
                 console.error(err)
             }
-            loadStudents();
+            
         }
+        loadStudents();
     }, [])
     return(
         <div>
