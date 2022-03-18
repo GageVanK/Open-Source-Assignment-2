@@ -1,0 +1,13 @@
+a:Link{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+    display: grid;
+    grid-gap: 20px;
+    grid-auto-flow: column;
+    align-items: center;
+
+}
