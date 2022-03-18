@@ -24,7 +24,7 @@ export default function Teachers(){
             <ul>
                 {advisors.map((First) => (
                     <li>
-                    {First.fields.First}
+                    {First.fields.First} {First.fields.Last} is the advisor for {First.fields.Advisor_Year}. Contact: {First.fields.Email}
                     </li>
 
                 ))}
