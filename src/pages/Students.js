@@ -22,10 +22,11 @@ export default function Students(){
             <h1>Students</h1>
 
             <ul>
-                {students.map((first) => (
+                {students.map((First) => (
                 <li>
-                {first.fields.first}
-                </li>))}
+                {First.fields.First}
+                </li>
+                ))}
             </ul>
         </div>
         
